@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -10,7 +11,7 @@
 <style>
 
 body{
-font-family:Arial;
+font-family:Arial, Helvetica, sans-serif;
 margin:0;
 background:#f4f6fb;
 }
@@ -18,14 +19,27 @@ background:#f4f6fb;
 header{
 background:#0b3d91;
 color:white;
-padding:20px;
-text-align:center;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:15px;
+padding:18px;
+flex-wrap:wrap;
+}
+
+.logo{
+background:white;
+color:#0b3d91;
+font-weight:bold;
+font-size:28px;
+padding:10px 14px;
+border-radius:6px;
 }
 
 nav{
 background:#111;
-padding:12px;
 text-align:center;
+padding:12px;
 }
 
 nav a{
@@ -42,12 +56,13 @@ color:#ffd700;
 .hero{
 background:linear-gradient(90deg,#0b3d91,#1b66d1);
 color:white;
-padding:120px 20px;
 text-align:center;
+padding:110px 20px;
 }
 
 .hero h1{
-font-size:42px;
+font-size:40px;
+margin-bottom:10px;
 }
 
 .hero p{
@@ -56,7 +71,7 @@ font-size:20px;
 
 .btn{
 background:#ffd700;
-padding:12px 25px;
+padding:12px 28px;
 border-radius:6px;
 color:black;
 text-decoration:none;
@@ -64,9 +79,9 @@ font-weight:bold;
 }
 
 section{
-padding:50px;
-margin:20px;
 background:white;
+margin:20px;
+padding:50px;
 border-radius:8px;
 }
 
@@ -129,6 +144,7 @@ background:#0b3d91;
 color:white;
 text-align:center;
 padding:20px;
+margin-top:20px;
 }
 
 .whatsapp{
@@ -161,22 +177,14 @@ font-weight:bold;
 
 <body>
 
-<header style="background:#0b3d91;color:white;padding:15px 20px;display:flex;align-items:center;justify-content:center;gap:15px;flex-wrap:wrap;">
+<header>
 
-<div style="background:white;color:#0b3d91;font-weight:bold;font-size:28px;padding:10px 14px;border-radius:6px;">
-CA
+<div class="logo">CA</div>
+
+<div>
+<h1 style="margin:0">Chirag Ratan Jain and Associates</h1>
+<p style="margin:0">Chartered Accountant Firm</p>
 </div>
-
-<div style="text-align:left;">
-<h1 style="margin:0;font-size:26px;">Chirag Ratan Jain and Associates</h1>
-<p style="margin:0;">Chartered Accountant Firm</p>
-</div>
-
-</header>
-
-<h1>Chirag Ratan Jain and Associates</h1>
-
-<p>Chartered Accountant Firm</p>
 
 </header>
 
@@ -193,7 +201,7 @@ CA
 
 <h1>Expert Chartered Accountant Services</h1>
 
-<p>Income Tax | GST | TDS | Bookkeeping | Audit</p>
+<p>Income Tax • GST • TDS • Bookkeeping • Audit</p>
 
 <br>
 
@@ -207,7 +215,7 @@ CA
 
 <p style="text-align:center;font-size:18px">
 
-Chirag Ratan Jain and Associates is a professional Chartered Accountant firm providing taxation, GST compliance, TDS services, bookkeeping, audit and financial consulting services to individuals and businesses.
+Chirag Ratan Jain and Associates is a professional Chartered Accountant firm providing taxation, GST compliance, TDS services, bookkeeping, audit and financial consultancy for individuals, startups and businesses.
 
 </p>
 
@@ -215,7 +223,7 @@ Chirag Ratan Jain and Associates is a professional Chartered Accountant firm pro
 
 <section id="services">
 
-<h2>Our Services</h2>
+<h2>Our Professional Services</h2>
 
 <div class="services">
 
@@ -226,27 +234,27 @@ Chirag Ratan Jain and Associates is a professional Chartered Accountant firm pro
 
 <div class="service">
 <h3>GST Services</h3>
-<p>GST registration and return filing.</p>
+<p>GST registration and GST return filing.</p>
 </div>
 
 <div class="service">
-<h3>TDS Services</h3>
-<p>TDS return filing and compliance.</p>
+<h3>TDS Compliance</h3>
+<p>TDS return filing and advisory.</p>
 </div>
 
 <div class="service">
 <h3>Bookkeeping</h3>
-<p>Professional accounting and bookkeeping.</p>
+<p>Professional accounting & bookkeeping.</p>
 </div>
 
 <div class="service">
 <h3>Audit</h3>
-<p>Statutory and internal audits.</p>
+<p>Internal and statutory audit services.</p>
 </div>
 
 <div class="service">
 <h3>Business Registration</h3>
-<p>Company, LLP and firm registration.</p>
+<p>Company, LLP & firm registration.</p>
 </div>
 
 </div>
@@ -264,6 +272,7 @@ Chirag Ratan Jain and Associates is a professional Chartered Accountant firm pro
 <p><b>Office Telephone:</b> 0771-4050005</p>
 
 <p><b>Email:</b> cjainassociates@gmail.com</p>
+
 <p><b>Address:</b><br>
 
 Office No 35 First Floor<br>
@@ -275,7 +284,7 @@ Raipur (Chhattisgarh)
 
 </div>
 
-<h3 style="text-align:center">Send Enquiry</h3>
+<h3 style="text-align:center">Client Enquiry</h3>
 
 <form>
 
@@ -318,4 +327,3 @@ width="90%" height="300">
 
 </body>
 </html>
-
