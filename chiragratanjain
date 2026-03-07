@@ -1,0 +1,266 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chirag Ratan Jain & Associates | Chartered Accountants</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:#f5f7fb;
+color:#333;
+}
+
+header{
+position:sticky;
+top:0;
+background:#0b1f3a;
+padding:15px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+color:white;
+font-size:20px;
+font-weight:600;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:14px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(135deg,#0b1f3a,#1a4fa3);
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.section{
+padding:80px 60px;
+max-width:1200px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+.card h3{
+color:#1a4fa3;
+}
+
+.testimonial{
+background:#eef2fb;
+padding:60px;
+text-align:center;
+font-style:italic;
+}
+
+.contact{
+background:#1a4fa3;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.map{
+width:100%;
+height:300px;
+border:0;
+margin-top:20px;
+}
+
+.footer{
+background:#0b1f3a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+font-size:22px;
+}
+
+.call{
+position:fixed;
+bottom:90px;
+right:25px;
+background:#0b1f3a;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+font-size:22px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+CHIRAG RATAN JAIN & ASSOCIATES
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>Trusted Chartered Accountants</h1>
+
+<p>Audit • GST • Income Tax • Business Advisory</p>
+
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<h2>About Our Firm</h2>
+
+<p>
+Chirag Ratan Jain & Associates is a professional Chartered Accountancy firm based in Raipur, Chhattisgarh.
+We provide expert services in Audit, GST Compliance, Income Tax, and Business Advisory.
+
+Our goal is to deliver reliable financial solutions and support businesses
+with professional guidance and regulatory compliance.
+</p>
+
+</section>
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Audit & Assurance</h3>
+<p>Statutory Audit, Internal Audit, and Financial Review services.</p>
+</div>
+
+<div class="card">
+<h3>GST Services</h3>
+<p>GST Registration, Return Filing, Advisory and Compliance.</p>
+</div>
+
+<div class="card">
+<h3>Income Tax</h3>
+<p>ITR Filing, Tax Planning and Assessment Representation.</p>
+</div>
+
+<div class="card">
+<h3>Business Advisory</h3>
+<p>Startup Support, Business Setup and Compliance Management.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="testimonial">
+
+<h2>Client Testimonial</h2>
+
+<p>
+“Highly professional CA firm providing reliable GST and taxation services.”
+</p>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Phone:</b> +91 9713430505</p>
+
+<p><b>Email:</b> cjainassociates@gmail.com</p>
+
+<p><b>Address:</b> Office No 35 First Floor Bhakt Mata Karma Parisar,
+New Rajendra Nagar, Raipur, Chhattisgarh</p>
+
+<iframe class="map"
+src="https://maps.google.com/maps?q=New%20Rajendra%20Nagar%20Raipur&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<div class="footer">
+
+© 2026 Chirag Ratan Jain & Associates | Chartered Accountants
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/919713430505">W</a>
+
+<a class="call" href="tel:+919713430505">📞</a>
+
+</body>
+</html>
+```
